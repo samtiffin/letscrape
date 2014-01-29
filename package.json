@@ -1,0 +1,28 @@
+{
+  "name": "letscrape",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Scrape data from a list of lettings agent's websites.",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/samtiffin/letscrape.git"
+  },
+  "author": "samtiffin <sam.tiffin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samtiffin/letscrape/issues"
+  },
+  "homepage": "https://github.com/samtiffin/letscrape",
+  "devDependencies": {
+    "should": "~3.1.2",
+    "mocha": "~1.17.1"
+  },
+  "dependencies": {
+    "request": "~2.33.0",
+    "cheerio": "~0.13.1"
+  }
+}
